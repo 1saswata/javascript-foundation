@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+          margin-bottom: 10px;
+        }
+  
+        li button {
+          font-size: 12px;
+          margin-left: 20px;
+          color: #666;
+        }
+      </style>
+    <script src="script.js" defer></script>
+    <script>
+        function add7 (number) {
+            return number + 7;
+        }
+        function multiply (number1, number2) {
+            return number1 * number2;
+        }
+        function capitalize (string) {
+            let newString = string.toUpperCase()[0] + (string.toLowerCase()).slice(1);
+            return newString;
+        }
+        function lastLetter (string) {
+            return string.slice(-1);
+        }
+    </script>
+</head>
+<body>
+    <body>
+        <h1>THE TITLE OF YOUR WEBPAGE</h1>
+        <div id="container"></div>
+        <div>
+            <h1>My shopping list</h1>
+
+            <div>
+              <label for="item">Enter a new item:</label>
+              <input type="text" name="item" id="item">
+              <button>Add item</button>
+            </div>
+        
+            <ul>
+        
+            </ul>
+        </div>
+      </body>
+</body>
+</html>
