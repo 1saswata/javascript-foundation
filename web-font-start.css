@@ -1,4 +1,21 @@
 /* General setup */
+@font-face {
+  font-family: 'arbutus_slabregular';
+  src: url('fonts/arbutusslab-regular-webfont.woff2') format('woff2'),
+       url('fonts/arbutusslab-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'alegreyaregular';
+  src: url('fonts/alegreya-regular-webfont.woff2') format('woff2'),
+       url('fonts/alegreya-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 html {
     font-size: 10px;
@@ -16,14 +33,17 @@ html {
   
   h1 {
     font-size: 3.2rem;
+    font-family: 'arbutus_slabregular', serif;
   }
   
   h2 {
     font-size: 2.4rem;
+    font-family: 'alegreyaregular', sans-serif;
   }
   
   p {
     font-size: 1.4rem;
     line-height: 1.6;
     word-spacing: 0.6rem;
+    font-family: 'Abhaya Libre', sans-serif;
   }
